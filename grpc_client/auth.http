@@ -1,0 +1,16 @@
+### Зарегестрировать пользователя
+GRPC localhost:44044/auth.Auth/Register
+
+{
+  "email": "ddd@dd.com",
+  "password": "qwerty"
+}
+
+### Залогинить пользователя
+GRPC localhost:44044/auth.Auth/Login
+
+{
+  "email": "ddd@dd.com",
+  "password": "123",
+  "app_id": 1
+}
